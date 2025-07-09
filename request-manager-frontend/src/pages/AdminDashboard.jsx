@@ -17,7 +17,7 @@ const AdminDashboard = () => {
 
   const navigate = useNavigate();
   const itemsPerPage = 20;
-  const statuses = ['PENDING', 'IN_PROGRESS', 'RESOLVED', 'ON_HOLD', 'REJECTED', 'CLOSED'];
+  const statuses = ['PENDING', 'IN_PROGRESS', 'RESOLVED', 'ON_HOLD', 'REJECTED'];
 
   const fetchRequests = async () => {
     setLoading(true);

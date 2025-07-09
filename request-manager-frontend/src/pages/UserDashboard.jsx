@@ -146,7 +146,7 @@ const UserDashboard = () => {
   );
 
   const totalPages = Math.ceil(filteredRequests.length / itemsPerPage);
-  const statuses = ['PENDING', 'IN_PROGRESS', 'ON_HOLD', 'RESOLVED', 'REJECTED', 'CLOSED'];
+  const statuses = ['PENDING', 'IN_PROGRESS', 'ON_HOLD', 'RESOLVED', 'REJECTED'];
 
   return (
     <div className="p-6 max-w-6xl mx-auto">
